@@ -1,0 +1,14 @@
+
+
+Code Coverage Report:    
+  2018-07-30 05:34:17    
+                         
+ Summary:                
+  Classes: 66.67% (2/3)  
+  Methods: 70.59% (12/17)
+  Lines:   63.46% (33/52)
+
+\PrayerMate::PrayerMate\Petition
+  Methods: 100.00% ( 9/ 9)   Lines: 100.00% ( 27/ 27)
+\PrayerMate::PrayerMate\PrayerMateAPI
+  Methods: 100.00% ( 3/ 3)   Lines: 100.00% (  6/  6)

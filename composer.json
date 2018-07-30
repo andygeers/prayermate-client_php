@@ -1,0 +1,41 @@
+{
+    "name": "prayermate/prayermate-api",
+    "description": "PrayerMate Platform API",
+    "keywords": [
+        "api",
+        "prayer",
+        "prayermate"
+    ],
+    "homepage": "https://github.com/andygeers/prayermate-client_php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Pavarno",
+            "email": "pavarnos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6",
+        "phpunit/phpunit": "^6",
+        "pds/skeleton": "^1.0",
+        "phpstan/phpstan": "^0.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrayerMate\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PrayerMate\\": "test"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "phpstan": "vendor/bin/phpstan analyse -l 7 -c phpstan.neon src > phpstan.log"
+    }
+}
