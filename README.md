@@ -1,4 +1,4 @@
-# PrayerMateApi
+# PrayerMate API
 
 This PHP composer package is an API for working with the [PrayerMate platform](https://www.prayermate.net/). 
 
@@ -57,7 +57,6 @@ API page for your feed about handling multiple petitions carefully.
 
 ### ToDo
 
-* pds/skeleton
 * tls key pinning
 * The Ruby Gem version https://github.com/andygeers/prayermate_api has a couple of other endpoints but we have no documentation for those yet.
 
